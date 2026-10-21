@@ -52,4 +52,4 @@ The new root-level website does not reference any of the following:
 
 These were left untouched for you to remove when satisfied. The original `Nonhlevu.png` is not used at runtime because the site uses `assets/school-crest.png`; keep the original as your source artwork if desired. `gitattributes` is an existing unrelated file and was not changed.
 
-The earlier privately hosted Sites preview is a separate older publication. This local GitHub-ready revision has not been published there or pushed to GitHub.
+The earlier privately hosted Sites preview is a separate older publication. This repository contains the GitHub Pages version. To publish the root-level website after a push, set **Settings → Pages → Build and deployment** to **Deploy from a branch**, **main**, **/(root)**. GitHub Pages deployment status appears in the repository's Actions tab; the wording in this README does not control deployment.
