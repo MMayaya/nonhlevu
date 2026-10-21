@@ -18,12 +18,13 @@ This folder is the GitHub-ready website. Open `index.html` to start. Each sectio
 | `styles.css` | Shared styling, responsive layouts and animations |
 | `app.js` | Shared interactive enhancements; no page routing |
 | `assets/school-crest.png` | School crest used by the site |
+| `MediaFiles/DroneImage.png` | Homepage hero background; keep the `MediaFiles` folder when publishing |
 | `downloads/nonhlevu-admissions-guide.txt` | Downloadable preparation checklist |
 | `downloads/nonhlevu-study-guide.txt` | Downloadable study planner |
 | `.nojekyll` | Serve the files directly on GitHub Pages |
 | `README.md` | These maintenance notes; optional for serving the site |
 
-Upload the contents of this folder to the publishing root of your GitHub repository, including the `assets` and `downloads` subfolders. The HTML pages belong at the same level as `styles.css` and `app.js`. All internal URLs are relative, so a repository subpath is supported.
+Upload the contents of this folder to the publishing root of your GitHub repository, including the `assets`, `MediaFiles` and `downloads` subfolders. The HTML pages belong at the same level as `styles.css` and `app.js`. All internal URLs are relative, so a repository subpath is supported.
 
 ## Edit the website
 
@@ -33,6 +34,7 @@ Upload the contents of this folder to the publishing root of your GitHub reposit
 - Edit calendar, search, filters and email behaviour in `app.js`.
 - Add resource rows directly in `resources.html`; the search script reads those rows. Use `data-category="Parents"`, `"Learners"`, `"Admissions"` or `"Everyone"`.
 - Add approved files to `downloads/`, then link to them in the relevant page.
+- Add future school photos to `MediaFiles/` and give them descriptive file names. Use web-sized JPEG or WebP files for large photographs when possible, and keep the filename's capitalisation exactly the same in HTML and on disk.
 - Add school notices directly in `news.html`, matching a filter's `data-category`.
 - When updating contact information, check `contact.html`, `admissions.html`, the footer of each page and the admissions checklist.
 
